@@ -10,9 +10,9 @@
 DHT dht(DHTPIN, DHTTYPE);
 // Update these with values suitable for your network.
 
-const char* ssid = "R2_MULT";
-const char* password = "toor1234";
-const char* mqtt_server = "192.168.1.132";
+const char* ssid = "ssidxxx";
+const char* password = "passxxx";
+const char* mqtt_server = "x.x.x.x";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
